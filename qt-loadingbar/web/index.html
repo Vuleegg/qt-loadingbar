@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum 2025 | Loading Bar</title>
+  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="hidden">
+  <div class="progress-container">
+    <div class="circular-progress">
+      <svg>
+        <circle class="track" r="35" cx="40" cy="40"></circle>
+        <circle class="progress" r="35" cx="40" cy="40"></circle>
+      </svg>
+      <div class="percentage">0%</div>
+    </div>
+    <div class="progress-content">
+      <div id="title" class="title">Loading...</div>
+      <div id="subtitle" class="subtitle">Example message</div>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
