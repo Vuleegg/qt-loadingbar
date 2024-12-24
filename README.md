@@ -1,3 +1,4 @@
+```lua
 -- Start a progress bar with the given options
 exports['qt-loadingbar']:progressBar({
     duration = 15000,  -- Duration of the progress bar (in milliseconds)
@@ -20,3 +21,4 @@ exports['qt-loadingbar']:progressBar({
 
 -- Check if the progress bar is currently active
 exports['qt-loadingbar']:isActive()  -- Returns a boolean indicating if the progress bar is active
+```
