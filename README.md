@@ -16,5 +16,4 @@
                -- scenario = "PED SCENARIO",
             },
     })
-
 exports['qt-loadingbar']:isActive() -- # returns boolean 
